@@ -1,0 +1,32 @@
+* {
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: rgb(22, 22, 22);
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.1px;
+  line-height: 1, 5rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+hr {
+  border: none;
+  height: 1px;
+  color: white;
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  letter-spacing: 3px;
+  color: rgb(0, 255, 221);
+}
+.bold {
+  font-weight: 500;
+}
+.aligncenter {
+  text-align: center;
+}
+.blackbar {
+  background-color: black;
+}
+.button {
+  color: rgb(0, 255, 221);
+}
