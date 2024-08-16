@@ -6,9 +6,12 @@
   line-height: 1, 5rem;
   font-weight: 300;
   text-decoration: none;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 0;
 }
 hr {
-  border: none;
+  margin: 5px;
   height: 1px;
   color: white;
   background-color: white;
@@ -17,16 +20,29 @@ h1 {
   text-align: center;
   letter-spacing: 3px;
   color: rgb(0, 255, 221);
+  margin: 15px;
 }
 .bold {
   font-weight: 500;
 }
 .aligncenter {
   text-align: center;
+  margin: 10px;
 }
 .blackbar {
   background-color: black;
 }
 .button {
   color: rgb(0, 255, 221);
+}
+.centerimg {
+  display: flex;
+  justify-content: center;
+}
+img {
+  margin: 2px;
+}
+.marginhr {
+  margin-left: 100px;
+  margin-right: 100px;
 }
